@@ -51,8 +51,8 @@ devDependencies:
     specifier: ^29.7.0
     version: 29.7.0
   marked:
-    specifier: ^9.1.0
-    version: 9.1.2
+    specifier: ^11.0.0
+    version: 11.0.0
   rollup:
     specifier: ^4.0.2
     version: 4.1.1
@@ -4527,6 +4527,12 @@ packages:
       marked: 9.1.2
       node-emoji: 2.1.0
       supports-hyperlinks: 3.0.0
+    dev: true
+
+  /marked@11.0.0:
+    resolution: {integrity: sha512-2GsW34uXaFEGTQ/+3rCnNC6vUYTAgFuDLGl70v/aWinA5mIJtTrrFAmfbLOfVvgPyxXuDVL9He/7reCK+6j3Sw==}
+    engines: {node: '>= 18'}
+    hasBin: true
     dev: true
 
   /marked@9.1.2:
